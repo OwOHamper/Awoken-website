@@ -3,7 +3,7 @@
 <template>
     <div class="person">
         <div class="person-image">
-            <img class="person-img" :src="image" alt="person image">
+            <img class="person-img" :src="'/' + image" alt="person image">
         </div>
         <div class="person-info">
             <div class="name-div">
