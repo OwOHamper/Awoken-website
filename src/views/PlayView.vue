@@ -15,7 +15,7 @@
         <br>
 
         <p style="display:block">Or you can play the latest version directly in your browser:</p>
-        <a href="https://spongia.hamper.dev/">
+        <a href="https://game.awoken.hamper.dev/">
             <button class="red-button blue" type="button">Play Online</button>
         </a>
 
