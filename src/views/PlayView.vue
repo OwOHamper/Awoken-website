@@ -15,7 +15,7 @@
         <br>
 
         <p style="display:block">Or you can play the latest version directly in your browser:</p>
-        <a href="https://game.awoken.hamper.dev/">
+        <a href="https://play.awoken.sk/">
             <button class="red-button blue" type="button">Play Online</button>
         </a>
 
