@@ -10,7 +10,7 @@
 
         <div class="right">
             <div class="image-div">
-                <img id="anchor" class="hero-image" src="hero.png">
+                <img id="anchor" class="hero-image" src="/hero.png">
                 <!-- <img id="eye" class="eye" src="Assets/hero-icon-eye.png" style="top: 120px;left: 120px;"> -->
             </div>
         </div>
