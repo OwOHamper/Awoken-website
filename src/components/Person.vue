@@ -22,6 +22,22 @@
                 <a v-if="instagram != null" :href="'https://www.instagram.com/' + instagram" >
                     <i class="fa-brands fa-instagram" :title="'@' + instagram"></i>
                 </a>
+
+                <a v-if="youtubeUrl != null" :href="'https://www.youtube.com/' + youtubeUrl" >
+                    <i class="fa-brands fa-youtube" :title="'@' + youtubeName"></i>
+                </a>
+                
+                <a v-if="appleUrl != null" :href="'https://music.apple.com/' + appleUrl" >
+                    <i class="fa-brands fa-apple" :title="'@' + appleName"></i>
+                </a>
+
+                <a v-if="soundcloudUrl != null" :href="'https://soundcloud.com/' + soundcloudUrl" >
+                    <i class="fa-brands fa-soundcloud" :title="'@' + soundcloudName"></i>
+                </a>
+
+                <a v-if="spotifyUrl != null" :href="'https://open.spotify.com/user/' + spotifyUrl" >
+                    <i class="fa-brands fa-spotify" :title="'@' + spotifyName"></i>
+                </a>
                 
                 
             </div>
@@ -39,7 +55,16 @@ export default {
         image: String,
         instagram: String,
         website: String,
-        github: String
+        github: String,
+        youtubeUrl: String,
+        youtubeName: String,
+        appleUrl: String,
+        appleName: String,
+        soundcloudUrl: String,
+        soundcloudName: String,
+        spotifyUrl: String,
+        spotifyName: String,
+        
     }
 }
 </script>
