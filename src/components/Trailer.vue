@@ -5,10 +5,10 @@
     </div>
 
     <div class="video">
-        <iframe width="960" height="540" src="https://www.youtube.com/embed/wHPnNgkSfG8?si=iCXQq-4WZrY2VCJ_"
-        title="YouTube video player" frameborder="0" 
+        <iframe width="960" height="540" src="https://www.youtube.com/embed/bD5X31YCS6w?si=M4vJzPmvHgKKxuzJ"
+        title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen> </iframe>
+        allowfullscreen></iframe>
     </div>
   </main>
 </template>
