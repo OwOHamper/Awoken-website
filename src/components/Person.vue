@@ -85,6 +85,12 @@ export default {
 
     }
 
+    @media screen and (max-width: 380px) {
+        .person {
+            width: 80%;
+        }
+    }
+
     .person-image {
         padding: 10px 20px;
         

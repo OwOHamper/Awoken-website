@@ -73,7 +73,7 @@ import PersonBig from '../components/PersonBig.vue'
         
     }
 
-    .vertical-flexbox {
+    /* .vertical-flexbox {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -88,9 +88,9 @@ import PersonBig from '../components/PersonBig.vue'
       justify-content: center;
       align-items: center;
       gap: 100px;
-    }
+    } */
 
-    @media screen and (max-width: 1400px) {
+    /* @media screen and (max-width: 1400px) {
       .horizontal-flexbox {
         gap: 40px;  
       }
@@ -101,7 +101,7 @@ import PersonBig from '../components/PersonBig.vue'
       flex-direction: column;
       gap: 50px;
     }
-    }
+    } */
 
     .flexbox {
       display: flex;
