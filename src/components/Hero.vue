@@ -56,6 +56,10 @@
     .subtitle-text {
         text-align: center;
     }
+
+    .right {
+        margin-top: 100px;
+    }
     /* .subtitle-text.letters { */
     /* word-wrap: break-word; */
 /* } */
@@ -96,7 +100,7 @@ a {
 
 .right {
     width: 25%;
-    height: 600px;
+    /* height: 600px; */
     /* border: solid 1px black; */
 }
 
