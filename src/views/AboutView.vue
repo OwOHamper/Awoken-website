@@ -19,7 +19,7 @@ import PersonBig from '../components/PersonBig.vue'
       <!-- </div> -->
       <!-- <div class="horizontal-flexbox"> -->
         <Person name="Abigail Beblavá" description="Artist" image="abby.png"/>
-        <Person name="Oliver Seman" description="Programmer" image="oliver.png"/>
+        <Person name="Oliver Seman" description="Programmer" image="oliver.png" github="OLSE9" instagram="olse_9"/>
         <Person name="Kristián Ohman" description="Music composer" image="tinky.png" spotifyUrl="2o910s2uauvav9o900rua8t7z"
         spotifyName="Tinkydakiko" soundcloudUrl="getcha_records" soundcloudName="Getcha Records" appleUrl="sk/artist/tinky/1706677480" appleName="Tinky"
         youtubeUrl="@getcha.records" youtubeName="Getcha Records" />
@@ -110,6 +110,12 @@ import PersonBig from '../components/PersonBig.vue'
       align-items: center;
       gap: 50px;
     }
+
+    /* .flexbox > * { */
+      /* flex: 1 1 300px; */
+      /* flex-basis: 10%; */
+      /* min-width: 30%; */
+    /* } */
 
     /* .persons-div {
       display: flex;
