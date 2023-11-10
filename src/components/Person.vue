@@ -85,9 +85,9 @@ export default {
 
     }
 
-    @media screen and (max-width: 380px) {
+    @media screen and (max-width: 385px) {
         .person {
-            width: 80%;
+            width: 90%;
         }
     }
 
