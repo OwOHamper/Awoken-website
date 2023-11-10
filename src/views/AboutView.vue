@@ -10,7 +10,7 @@ import PersonBig from '../components/PersonBig.vue'
     <br>
     <p>Our team consists of:</p>
 
-    <dir class="vertical-flexbox">
+    <div class="vertical-flexbox">
       <div class="horizontal-flexbox">
         <Person name="Teodor Barča" description="Python Programmer" image="hamper.png" instagram="9teodor" website="hamper.dev"
         github="OwOHamper" youtubeUrl="@OwOHamper" youtubeName="OwOHamper"/>
@@ -34,7 +34,7 @@ import PersonBig from '../components/PersonBig.vue'
       <PersonBig name="Kristián Ohman" description="Music composer" image="starosta.png"/>
     </div> -->
 
-    </dir>
+    </div>
   </main>
 
 </template>
@@ -79,6 +79,7 @@ import PersonBig from '../components/PersonBig.vue'
       justify-content: center;
       align-items: center;
       gap: 50px;
+      margin-left: 0;
     }
 
     .horizontal-flexbox {
@@ -86,7 +87,20 @@ import PersonBig from '../components/PersonBig.vue'
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      gap: 150px;
+      gap: 100px;
+    }
+
+    @media screen and (max-width: 1400px) {
+      .horizontal-flexbox {
+        gap: 40px;  
+      }
+    }
+
+    @media screen and (max-width: 800px) {
+    .horizontal-flexbox {
+      flex-direction: column;
+      gap: 50px;
+    }
     }
 
     /* .persons-div {
