@@ -10,20 +10,20 @@ import PersonBig from '../components/PersonBig.vue'
     <br>
     <p>Our team consists of:</p>
 
-    <div class="vertical-flexbox">
-      <div class="horizontal-flexbox">
+    <div class="flexbox">
+      <!-- <div class="horizontal-flexbox"> -->
         <Person name="Teodor Barča" description="Python Programmer" image="hamper.png" instagram="9teodor" website="hamper.dev"
         github="OwOHamper" youtubeUrl="@OwOHamper" youtubeName="OwOHamper"/>
         <Person name="Michal Petričko" description="C enthusiast" image="l33t.png"/>
         <Person name="Michal Katriňák" description="Artist/Designer" image="michaldo.png"/>
-      </div>
-      <div class="horizontal-flexbox">
+      <!-- </div> -->
+      <!-- <div class="horizontal-flexbox"> -->
         <Person name="Abigail Beblavá" description="Artist" image="abby.png"/>
         <Person name="Oliver Seman" description="Programmer" image="oliver.png"/>
         <Person name="Kristián Ohman" description="Music composer" image="tinky.png" spotifyUrl="2o910s2uauvav9o900rua8t7z"
         spotifyName="Tinkydakiko" soundcloudUrl="getcha_records" soundcloudName="Getcha Records" appleUrl="sk/artist/tinky/1706677480" appleName="Tinky"
         youtubeUrl="@getcha.records" youtubeName="Getcha Records" />
-      </div>
+      <!-- </div> -->
 
     <!-- <div class="persons-div">
       <PersonBig name="Teodor Barča" description="Python enjoyer" image="starosta.png"/>
@@ -101,6 +101,14 @@ import PersonBig from '../components/PersonBig.vue'
       flex-direction: column;
       gap: 50px;
     }
+    }
+
+    .flexbox {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
     }
 
     /* .persons-div {
