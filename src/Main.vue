@@ -75,7 +75,7 @@ import Footer from './components/Footer.vue'
         .links {
             width: 80%;
             justify-content: space-around;
-            margin-right: 0;
+            margin-right: 5%;
             height: 100px;
             align-items: center;
         }

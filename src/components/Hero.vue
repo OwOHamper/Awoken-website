@@ -41,12 +41,14 @@
     /* align center */
     .red-button {
         margin-left: 0;
-
+        margin-top: 0; 
     }
 
     .button-div {
         display: flex;
         justify-content: center;
+        align-items: center;
+       
     }
     .title-text {
         text-align: center;
@@ -54,11 +56,29 @@
     .subtitle-text {
         text-align: center;
     }
+    /* .subtitle-text.letters { */
+    /* word-wrap: break-word; */
+/* } */
+}
+@media screen and (max-width: 600px) {
+ .subtitle-text {
+    height: 50px;
+ }
+}
+
+a {
+    white-space: pre;
 }
 
 .hero-left {
     margin-top: 100px;
     width: 650px;
+}
+
+@media screen and (max-width: 700px) {
+    .hero-left {
+        width: 80%;
+    }
 }
 
 .title-text {
