@@ -66,9 +66,19 @@ import Footer from './components/Footer.vue'
         width: 500px;
         display: flex;
         justify-content: space-around;
-        margin-right: 150px;
+        margin-right: 7%;
         height: 100px;
         align-items: center;
+    }
+    /* if screen width is small */
+    @media screen and (max-width: 600px) {
+        .links {
+            width: 80%;
+            justify-content: space-around;
+            margin-right: 0;
+            height: 100px;
+            align-items: center;
+        }
     }
 
     .link {
@@ -86,6 +96,7 @@ import Footer from './components/Footer.vue'
         font-weight: 200;
         width: 100%;
         margin-top: 18px;
+        text-align: center;
     }
 
     .router-link:hover {

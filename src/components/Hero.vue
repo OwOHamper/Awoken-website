@@ -3,9 +3,11 @@
         <div class="hero-left">
             <p class="title-text">Awoken</p>
             <p class="subtitle-text">A click and point video game that was created as a submission to <a href="https://smnd.sk/mikey/PHP/spongia/spongia_2023/index.php">Špongia 2023</a>.</p>
-            <RouterLink to="/play" custom v-slot="{ navigate }">
-                <button class="red-button" @click="navigate" role="link">Play Now</button>
-            </RouterLink>
+            <div class="button-div">
+                <RouterLink to="/play" custom v-slot="{ navigate }">
+                    <button class="red-button" @click="navigate" role="link">Play Now</button>
+                </RouterLink>
+            </div>
         </div>
 
         <div class="right">
@@ -21,7 +23,7 @@
 <style scoped>
 
 .hero {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     /* align-items: center; */
@@ -29,6 +31,29 @@
 
     /* color: white; */
     /* border: solid 1px black; */
+}
+
+@media screen and (max-width: 950px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* align center */
+    .red-button {
+        margin-left: 0;
+
+    }
+
+    .button-div {
+        display: flex;
+        justify-content: center;
+    }
+    .title-text {
+        text-align: center;
+    }
+    .subtitle-text {
+        text-align: center;
+    }
 }
 
 .hero-left {
@@ -50,9 +75,15 @@
 }
 
 .right {
-    width: 400px;
+    width: 25%;
     height: 600px;
     /* border: solid 1px black; */
+}
+
+@media screen and (max-width: 1100px) {
+    .right {
+        width: 275px;
+    }
 }
 
 .image-div {
@@ -74,9 +105,11 @@
     /* display: block; */
     /* margin-left: auto; */
     margin: 0 auto;
-    width: 350px;
+    width: 100%;
     /* position: absolute; */
 }
+
+
 
 .eye {
     width: 350px;
