@@ -20,7 +20,36 @@
         </a>
 
         <br>
-        <!-- <iframe src="https://spongia.hamper.dev" style="border:2px dotted #000000;" name="Awoken" scrolling="no" frameborder="1" marginheight="px" marginwidth="320px" height="720px" width="1280px"></iframe> -->
+        <div class="p-div" >
+        <p>
+        Our game is a simple point-and-click adventure game.
+It's based on moving with a robot on a map by right-clicking on the path.
+You can interact with various objects on the map using right or left mouse button while hovering over the object.
+Some of those objects will send you to a different room, where there are other objects and characters you can interact with.
+Other objects will immediatelly turn on a dialogue - dialogue can be controlled by left-clicking over the dialogue panel.
+Sometimes you can make a decision in a dialogue - the text will change color when hovering over it with cursor.
+In that case the player can choose an option by clicking on the text representing his choice.
+</p>
+<p>
+Robot has a limited level of battery during the game (you can see the remaining level of battery in the upper right corner)
+As soon as the robot runs out of battery, the game ends.
+You have to use segments of battery to progress in the game.
+</p>
+<p>
+You can quit the game while in main scene (overworld) by pressing Escape.
+In this menu you can also change the volume of music and sounds.
+</p>
+<p>
+Achieved endings are being stored in the main menu, those remain saved even after closing and opening the game.
+</p>
+<p>
+You can achieve 8 different endings, list of their names is in the Stats section.
+The main ending one should strive to achieve is ending 1 - The Martyr.
+</p>
+<p>
+We hope you'll like our game :)
+</p>
+</div>
         <br>
         <br>
         <br>
@@ -41,6 +70,16 @@ export default {
         /* justify-content: center; */
         /* align-items: center; */
         /* height: 100vh; */
+    }
+
+    .p-div {
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     p {
