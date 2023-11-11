@@ -20,8 +20,8 @@ import PersonBig from '../components/PersonBig.vue'
       <!-- <div class="horizontal-flexbox"> -->
         <Person name="Abigail Beblavá" description="Artist" image="abby.png"/>
         <Person name="Oliver Seman" description="Programmer" image="oliver.png" github="OLSE9" instagram="olse_9"/>
-        <Person name="Kristián Ohman" description="Music composer" image="tinky.png" spotifyUrl="2o910s2uauvav9o900rua8t7z"
-        spotifyName="Tinkydakiko" soundcloudUrl="getcha_records" soundcloudName="Getcha Records" appleUrl="sk/artist/tinky/1706677480" appleName="Tinky"
+        <Person name="Kristián Ohman" description="Music composer" image="tinky.png"
+        soundcloudUrl="getcha_records" soundcloudName="Getcha Records"
         youtubeUrl="@getcha.records" youtubeName="Getcha Records" />
       <!-- </div> -->
 
