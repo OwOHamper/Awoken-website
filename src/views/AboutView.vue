@@ -5,7 +5,10 @@ import PersonBig from '../components/PersonBig.vue'
 
 <template>
   <main>
+    
     <h2>Team "Chorá Puma"</h2>
+    <img src="ChoraPuma.png" alt="" class="bg-img">
+    
     <p>We are a group of <strong class="team-size">six</strong> high school student who are studying at <a href="https://www.galeje.sk/">Gymnázium Alejová 1, Košice.</a></p>
     <br>
     <p>Our team consists of:</p>
@@ -40,9 +43,21 @@ import PersonBig from '../components/PersonBig.vue'
 </template>
 
 <style scoped>
+    .bg-img {
+      /* position: absoule; */
+      margin: 0 auto;
+      margin-top: -25px;
+      width: 10%;
+      display: block;
+      /* text-align: center; */
+    }
+
     main {
         /* margin-top: 0px; */
         text-align: center;
+        /* background-image: url("ChoraPuma.png"); */
+        /* background-repeat: no-repeat; */
+        /* background-size: 15% 50%; */
         /* display: flex; */
         /* justify-content: center; */
         /* align-items: center; */
