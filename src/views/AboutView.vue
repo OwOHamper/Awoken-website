@@ -7,7 +7,7 @@ import PersonBig from '../components/PersonBig.vue'
   <main>
     
     <h2>Team "Chorá Puma"</h2>
-    <img src="/ChoraPuma.png" alt="" class="bg-img">
+    <img src="/ChoraPumaSmall.png" alt="" class="bg-img">
     
     <p>We are a group of <strong class="team-size">six</strong> high school student who are studying at <a href="https://www.galeje.sk/">Gymnázium Alejová 1, Košice.</a></p>
     <br>
@@ -47,7 +47,7 @@ import PersonBig from '../components/PersonBig.vue'
       /* position: absoule; */
       margin: 0 auto;
       margin-top: -25px;
-      width: 10%;
+      width: 200px;
       display: block;
       /* text-align: center; */
     }
